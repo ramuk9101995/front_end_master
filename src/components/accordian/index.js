@@ -34,7 +34,7 @@ const Index = () => {
               </div>
               {
 
-                    selected===dataItem.id || multiple.indexOf(dataItem.id) >=0 ?<div className='content'>{dataItem.age}</div>:null
+                    /* selected===dataItem.id ||*/ multiple.indexOf(dataItem.id) >=0 ?<div className='content'>{dataItem.age}</div>:null
                   }
             </div>)
             ))
