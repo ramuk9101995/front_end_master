@@ -3,7 +3,7 @@ import data from './data'
 import './style.css'
 
 const Index = () => {
-  const [selected,setSelected] = useState(null)
+  //const [selected,setSelected] = useState(null)
   const [multiple,setMultiple] = useState([])
   const handleSingleChange = (id)=>{
       //setSelected(id===selected?null:id)
@@ -20,7 +20,7 @@ const Index = () => {
       setMultiple(cpyMultiple)
       
   }
-  console.log(selected,multiple)
+  //console.log(selected,multiple)
   return (
     <div className='wrapper'>
       <div className='accordian'>

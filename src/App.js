@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Index from '../src/components/accordian/index'
+import RandomColor from './components/random_color/RandomColor';
+//import Index from './components/accordian/index'
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           Learn React
         </a> 
       </header> */}
-      <Index/>
+      <RandomColor/>
     </div>
   );
 }
