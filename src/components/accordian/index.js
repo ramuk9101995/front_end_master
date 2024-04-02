@@ -3,7 +3,11 @@ import data from './data'
 import './style.css'
 
 const Index = () => {
+<<<<<<< HEAD
   //const [selected,setSelected] = useState(null)
+=======
+ // const [selected,setSelected] = useState(null)
+>>>>>>> 904e3365f9acd960a8755d5714cefd7cc8de7e0a
   const [multiple,setMultiple] = useState([])
   const handleSingleChange = (id)=>{
       //setSelected(id===selected?null:id)
